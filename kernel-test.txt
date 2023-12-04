@@ -1,0 +1,334 @@
+Test "tests/add.data" succeeded
+Test "tests/add64.data" succeeded
+Test "tests/alu-arith.data" succeeded
+Test "tests/alu-bit.data" succeeded
+Test "tests/alu64-arith.data" succeeded
+Test "tests/alu64-bit.data" succeeded
+Test "tests/arsh32-imm-high.data" failed: Plugin returned error code 1 and output 
+Test "tests/arsh32-imm-neg.data" failed: Plugin returned error code 1 and output 
+Test "tests/arsh32-imm.data" succeeded
+Test "tests/arsh32-reg-high.data" succeeded
+Test "tests/arsh32-reg-neg.data" succeeded
+Test "tests/arsh32-reg.data" succeeded
+Test "tests/arsh64-imm-high.data" failed: Plugin returned error code 1 and output 
+Test "tests/arsh64-imm-neg.data" failed: Plugin returned error code 1 and output 
+Test "tests/arsh64-imm.data" succeeded
+Test "tests/arsh64-reg-high.data" succeeded
+Test "tests/arsh64-reg-neg.data" succeeded
+Test "tests/arsh64-reg.data" succeeded
+Test "tests/be16-high.data" failed: Plugin returned error code 1 and output 
+Test "tests/be16.data" failed: Plugin returned error code 1 and output 
+Test "tests/be32-high.data" failed: Plugin returned error code 1 and output 
+Test "tests/be32.data" failed: Plugin returned incorrect return value 11b87 expected 287454020
+Test "tests/be64.data" failed: Plugin returned error code 1 and output 
+Test "tests/call_local.data" succeeded
+Test "tests/call_unwind_fail.data" succeeded
+Test "tests/div-by-zero-reg.data" succeeded
+Test "tests/div32-high-divisor.data" succeeded
+Test "tests/div32-imm.data" succeeded
+Test "tests/div32-reg.data" succeeded
+Test "tests/div64-by-zero-reg.data" succeeded
+Test "tests/div64-imm.data" succeeded
+Test "tests/div64-negative-imm.data" succeeded
+Test "tests/div64-negative-reg.data" succeeded
+Test "tests/div64-reg.data" succeeded
+Test "tests/exit-not-last.data" succeeded
+Test "tests/exit.data" succeeded
+Test "tests/jeq-imm.data" succeeded
+Test "tests/jeq-reg.data" succeeded
+Test "tests/jeq32-imm.data" succeeded
+Test "tests/jeq32-reg.data" succeeded
+Test "tests/jge-imm.data" succeeded
+Test "tests/jge32-imm.data" succeeded
+Test "tests/jge32-reg.data" succeeded
+Test "tests/jgt-imm.data" succeeded
+Test "tests/jgt-reg.data" succeeded
+Test "tests/jgt32-imm.data" succeeded
+Test "tests/jgt32-reg.data" succeeded
+Test "tests/jit-bounce.data" succeeded
+Test "tests/jle-imm.data" succeeded
+Test "tests/jle-reg.data" succeeded
+Test "tests/jle32-imm.data" succeeded
+Test "tests/jle32-reg.data" succeeded
+Test "tests/jlt-imm.data" succeeded
+Test "tests/jlt-reg.data" succeeded
+Test "tests/jlt32-imm.data" succeeded
+Test "tests/jlt32-reg.data" succeeded
+Test "tests/jne-reg.data" succeeded
+Test "tests/jne32-imm.data" succeeded
+Test "tests/jne32-reg.data" succeeded
+Test "tests/jset-imm.data" succeeded
+Test "tests/jset-reg.data" succeeded
+Test "tests/jset32-imm.data" succeeded
+Test "tests/jset32-reg.data" succeeded
+Test "tests/jsge-imm.data" succeeded
+Test "tests/jsge-reg.data" succeeded
+Test "tests/jsge32-imm.data" succeeded
+Test "tests/jsge32-reg.data" succeeded
+Test "tests/jsgt-imm.data" succeeded
+Test "tests/jsgt-reg.data" succeeded
+Test "tests/jsgt32-imm.data" succeeded
+Test "tests/jsgt32-reg.data" succeeded
+Test "tests/jsle-imm.data" succeeded
+Test "tests/jsle-reg.data" succeeded
+Test "tests/jsle32-imm.data" succeeded
+Test "tests/jsle32-reg.data" succeeded
+Test "tests/jslt-imm.data" succeeded
+Test "tests/jslt-reg.data" succeeded
+Test "tests/jslt32-imm.data" succeeded
+Test "tests/jslt32-reg.data" succeeded
+Test "tests/lddw.data" succeeded
+Test "tests/lddw2.data" succeeded
+Test "tests/ldxb-all.data" failed: Plugin returned error code 1 and output 
+Test "tests/ldxb.data" failed: Plugin returned error code 1 and output 
+Test "tests/ldxdw.data" failed: Plugin returned error code 1 and output 
+Test "tests/ldxh-all.data" failed: Plugin returned error code 1 and output 
+Test "tests/ldxh-all2.data" failed: Plugin returned error code 1 and output 
+Test "tests/ldxh-same-reg.data" failed: Plugin returned error code 1 and output 
+Test "tests/ldxh.data" failed: Plugin returned error code 1 and output 
+Test "tests/ldxw-all.data" failed: Plugin returned error code 1 and output 
+Test "tests/ldxw.data" failed: Plugin returned error code 1 and output 
+Test "tests/le16.data" failed: Plugin returned error code 1 and output 
+Test "tests/le32.data" failed: Plugin returned incorrect return value 871b0100 expected 287454020
+Test "tests/le64.data" failed: Plugin returned error code 1 and output 
+Test "tests/lock_add.data" succeeded
+Test "tests/lock_add32.data" succeeded
+Test "tests/lock_and.data" succeeded
+Test "tests/lock_and32.data" succeeded
+Test "tests/lock_cmpxchg.data" succeeded
+Test "tests/lock_cmpxchg32.data" succeeded
+Test "tests/lock_fetch_add.data" succeeded
+Test "tests/lock_fetch_add32.data" succeeded
+Test "tests/lock_fetch_and.data" succeeded
+Test "tests/lock_fetch_and32.data" succeeded
+Test "tests/lock_fetch_or.data" succeeded
+Test "tests/lock_fetch_or32.data" succeeded
+Test "tests/lock_fetch_xor.data" succeeded
+Test "tests/lock_fetch_xor32.data" succeeded
+Test "tests/lock_or.data" succeeded
+Test "tests/lock_or32.data" succeeded
+Test "tests/lock_xchg.data" succeeded
+Test "tests/lock_xchg32.data" succeeded
+Test "tests/lock_xor.data" succeeded
+Test "tests/lock_xor32.data" succeeded
+Test "tests/lsh32-imm-high.data" failed: Plugin returned error code 1 and output 
+Test "tests/lsh32-imm-neg.data" failed: Plugin returned error code 1 and output 
+Test "tests/lsh32-imm.data" succeeded
+Test "tests/lsh32-reg-high.data" succeeded
+Test "tests/lsh32-reg-neg.data" succeeded
+Test "tests/lsh32-reg.data" succeeded
+Test "tests/lsh64-imm-high.data" failed: Plugin returned error code 1 and output 
+Test "tests/lsh64-imm-neg.data" failed: Plugin returned error code 1 and output 
+Test "tests/lsh64-imm.data" succeeded
+Test "tests/lsh64-reg-high.data" succeeded
+Test "tests/lsh64-reg-neg.data" succeeded
+Test "tests/lsh64-reg.data" succeeded
+Test "tests/mem-len.data" failed: Plugin returned error code 1 and output 
+Test "tests/mod-by-zero-reg.data" succeeded
+Test "tests/mod.data" succeeded
+Test "tests/mod32.data" succeeded
+Test "tests/mod64-by-zero-reg.data" succeeded
+Test "tests/mod64.data" succeeded
+Test "tests/mov.data" succeeded
+Test "tests/mov64-sign-extend.data" succeeded
+Test "tests/mul32-imm.data" succeeded
+Test "tests/mul32-reg-overflow.data" succeeded
+Test "tests/mul32-reg.data" succeeded
+Test "tests/mul64-imm.data" succeeded
+Test "tests/mul64-reg.data" succeeded
+Test "tests/neg.data" succeeded
+Test "tests/neg64.data" succeeded
+Test "tests/prime.data" succeeded
+Test "tests/rsh32-imm-high.data" failed: Plugin returned error code 1 and output 
+Test "tests/rsh32-imm-neg.data" failed: Plugin returned error code 1 and output 
+Test "tests/rsh32-imm.data" succeeded
+Test "tests/rsh32-reg-high.data" succeeded
+Test "tests/rsh32-reg-neg.data" succeeded
+Test "tests/rsh32-reg.data" succeeded
+Test "tests/rsh64-imm-high.data" failed: Plugin returned error code 1 and output 
+Test "tests/rsh64-imm-neg.data" failed: Plugin returned error code 1 and output 
+Test "tests/rsh64-imm.data" succeeded
+Test "tests/rsh64-reg-high.data" succeeded
+Test "tests/rsh64-reg-neg.data" succeeded
+Test "tests/rsh64-reg.data" succeeded
+Test "tests/stack.data" succeeded
+Test "tests/stb.data" failed: Plugin returned error code 1 and output 
+Test "tests/stdw.data" failed: Plugin returned error code 1 and output 
+Test "tests/sth.data" failed: Plugin returned error code 1 and output 
+Test "tests/stw.data" failed: Plugin returned error code 1 and output 
+Test "tests/stxb-all.data" failed: Plugin returned error code 1 and output 
+Test "tests/stxb-all2.data" failed: Plugin returned error code 1 and output 
+Test "tests/stxb-chain.data" failed: Plugin returned error code 1 and output 
+Test "tests/stxb.data" failed: Plugin returned error code 1 and output 
+Test "tests/stxdw.data" failed: Plugin returned error code 1 and output 
+Test "tests/stxh.data" failed: Plugin returned error code 1 and output 
+Test "tests/stxw.data" failed: Plugin returned error code 1 and output 
+Test "tests/subnet.data" failed: Plugin returned error code 1 and output 
+Test results:
+PASS: "tests/add.data"
+PASS: "tests/add64.data"
+PASS: "tests/alu-arith.data"
+PASS: "tests/alu-bit.data"
+PASS: "tests/alu64-arith.data"
+PASS: "tests/alu64-bit.data"
+FAIL: "tests/arsh32-imm-high.data" Plugin returned error code 1 and output 
+FAIL: "tests/arsh32-imm-neg.data" Plugin returned error code 1 and output 
+PASS: "tests/arsh32-imm.data"
+PASS: "tests/arsh32-reg-high.data"
+PASS: "tests/arsh32-reg-neg.data"
+PASS: "tests/arsh32-reg.data"
+FAIL: "tests/arsh64-imm-high.data" Plugin returned error code 1 and output 
+FAIL: "tests/arsh64-imm-neg.data" Plugin returned error code 1 and output 
+PASS: "tests/arsh64-imm.data"
+PASS: "tests/arsh64-reg-high.data"
+PASS: "tests/arsh64-reg-neg.data"
+PASS: "tests/arsh64-reg.data"
+FAIL: "tests/be16-high.data" Plugin returned error code 1 and output 
+FAIL: "tests/be16.data" Plugin returned error code 1 and output 
+FAIL: "tests/be32-high.data" Plugin returned error code 1 and output 
+FAIL: "tests/be32.data" Plugin returned incorrect return value 11b87 expected 287454020
+FAIL: "tests/be64.data" Plugin returned error code 1 and output 
+PASS: "tests/call_local.data"
+PASS: "tests/call_unwind_fail.data"
+PASS: "tests/div-by-zero-reg.data"
+PASS: "tests/div32-high-divisor.data"
+PASS: "tests/div32-imm.data"
+PASS: "tests/div32-reg.data"
+PASS: "tests/div64-by-zero-reg.data"
+PASS: "tests/div64-imm.data"
+PASS: "tests/div64-negative-imm.data"
+PASS: "tests/div64-negative-reg.data"
+PASS: "tests/div64-reg.data"
+PASS: "tests/exit-not-last.data"
+PASS: "tests/exit.data"
+PASS: "tests/jeq-imm.data"
+PASS: "tests/jeq-reg.data"
+PASS: "tests/jeq32-imm.data"
+PASS: "tests/jeq32-reg.data"
+PASS: "tests/jge-imm.data"
+PASS: "tests/jge32-imm.data"
+PASS: "tests/jge32-reg.data"
+PASS: "tests/jgt-imm.data"
+PASS: "tests/jgt-reg.data"
+PASS: "tests/jgt32-imm.data"
+PASS: "tests/jgt32-reg.data"
+PASS: "tests/jit-bounce.data"
+PASS: "tests/jle-imm.data"
+PASS: "tests/jle-reg.data"
+PASS: "tests/jle32-imm.data"
+PASS: "tests/jle32-reg.data"
+PASS: "tests/jlt-imm.data"
+PASS: "tests/jlt-reg.data"
+PASS: "tests/jlt32-imm.data"
+PASS: "tests/jlt32-reg.data"
+PASS: "tests/jne-reg.data"
+PASS: "tests/jne32-imm.data"
+PASS: "tests/jne32-reg.data"
+PASS: "tests/jset-imm.data"
+PASS: "tests/jset-reg.data"
+PASS: "tests/jset32-imm.data"
+PASS: "tests/jset32-reg.data"
+PASS: "tests/jsge-imm.data"
+PASS: "tests/jsge-reg.data"
+PASS: "tests/jsge32-imm.data"
+PASS: "tests/jsge32-reg.data"
+PASS: "tests/jsgt-imm.data"
+PASS: "tests/jsgt-reg.data"
+PASS: "tests/jsgt32-imm.data"
+PASS: "tests/jsgt32-reg.data"
+PASS: "tests/jsle-imm.data"
+PASS: "tests/jsle-reg.data"
+PASS: "tests/jsle32-imm.data"
+PASS: "tests/jsle32-reg.data"
+PASS: "tests/jslt-imm.data"
+PASS: "tests/jslt-reg.data"
+PASS: "tests/jslt32-imm.data"
+PASS: "tests/jslt32-reg.data"
+PASS: "tests/lddw.data"
+PASS: "tests/lddw2.data"
+FAIL: "tests/ldxb-all.data" Plugin returned error code 1 and output 
+FAIL: "tests/ldxb.data" Plugin returned error code 1 and output 
+FAIL: "tests/ldxdw.data" Plugin returned error code 1 and output 
+FAIL: "tests/ldxh-all.data" Plugin returned error code 1 and output 
+FAIL: "tests/ldxh-all2.data" Plugin returned error code 1 and output 
+FAIL: "tests/ldxh-same-reg.data" Plugin returned error code 1 and output 
+FAIL: "tests/ldxh.data" Plugin returned error code 1 and output 
+FAIL: "tests/ldxw-all.data" Plugin returned error code 1 and output 
+FAIL: "tests/ldxw.data" Plugin returned error code 1 and output 
+FAIL: "tests/le16.data" Plugin returned error code 1 and output 
+FAIL: "tests/le32.data" Plugin returned incorrect return value 871b0100 expected 287454020
+FAIL: "tests/le64.data" Plugin returned error code 1 and output 
+PASS: "tests/lock_add.data"
+PASS: "tests/lock_add32.data"
+PASS: "tests/lock_and.data"
+PASS: "tests/lock_and32.data"
+PASS: "tests/lock_cmpxchg.data"
+PASS: "tests/lock_cmpxchg32.data"
+PASS: "tests/lock_fetch_add.data"
+PASS: "tests/lock_fetch_add32.data"
+PASS: "tests/lock_fetch_and.data"
+PASS: "tests/lock_fetch_and32.data"
+PASS: "tests/lock_fetch_or.data"
+PASS: "tests/lock_fetch_or32.data"
+PASS: "tests/lock_fetch_xor.data"
+PASS: "tests/lock_fetch_xor32.data"
+PASS: "tests/lock_or.data"
+PASS: "tests/lock_or32.data"
+PASS: "tests/lock_xchg.data"
+PASS: "tests/lock_xchg32.data"
+PASS: "tests/lock_xor.data"
+PASS: "tests/lock_xor32.data"
+FAIL: "tests/lsh32-imm-high.data" Plugin returned error code 1 and output 
+FAIL: "tests/lsh32-imm-neg.data" Plugin returned error code 1 and output 
+PASS: "tests/lsh32-imm.data"
+PASS: "tests/lsh32-reg-high.data"
+PASS: "tests/lsh32-reg-neg.data"
+PASS: "tests/lsh32-reg.data"
+FAIL: "tests/lsh64-imm-high.data" Plugin returned error code 1 and output 
+FAIL: "tests/lsh64-imm-neg.data" Plugin returned error code 1 and output 
+PASS: "tests/lsh64-imm.data"
+PASS: "tests/lsh64-reg-high.data"
+PASS: "tests/lsh64-reg-neg.data"
+PASS: "tests/lsh64-reg.data"
+FAIL: "tests/mem-len.data" Plugin returned error code 1 and output 
+PASS: "tests/mod-by-zero-reg.data"
+PASS: "tests/mod.data"
+PASS: "tests/mod32.data"
+PASS: "tests/mod64-by-zero-reg.data"
+PASS: "tests/mod64.data"
+PASS: "tests/mov.data"
+PASS: "tests/mov64-sign-extend.data"
+PASS: "tests/mul32-imm.data"
+PASS: "tests/mul32-reg-overflow.data"
+PASS: "tests/mul32-reg.data"
+PASS: "tests/mul64-imm.data"
+PASS: "tests/mul64-reg.data"
+PASS: "tests/neg.data"
+PASS: "tests/neg64.data"
+PASS: "tests/prime.data"
+FAIL: "tests/rsh32-imm-high.data" Plugin returned error code 1 and output 
+FAIL: "tests/rsh32-imm-neg.data" Plugin returned error code 1 and output 
+PASS: "tests/rsh32-imm.data"
+PASS: "tests/rsh32-reg-high.data"
+PASS: "tests/rsh32-reg-neg.data"
+PASS: "tests/rsh32-reg.data"
+FAIL: "tests/rsh64-imm-high.data" Plugin returned error code 1 and output 
+FAIL: "tests/rsh64-imm-neg.data" Plugin returned error code 1 and output 
+PASS: "tests/rsh64-imm.data"
+PASS: "tests/rsh64-reg-high.data"
+PASS: "tests/rsh64-reg-neg.data"
+PASS: "tests/rsh64-reg.data"
+PASS: "tests/stack.data"
+FAIL: "tests/stb.data" Plugin returned error code 1 and output 
+FAIL: "tests/stdw.data" Plugin returned error code 1 and output 
+FAIL: "tests/sth.data" Plugin returned error code 1 and output 
+FAIL: "tests/stw.data" Plugin returned error code 1 and output 
+FAIL: "tests/stxb-all.data" Plugin returned error code 1 and output 
+FAIL: "tests/stxb-all2.data" Plugin returned error code 1 and output 
+FAIL: "tests/stxb-chain.data" Plugin returned error code 1 and output 
+FAIL: "tests/stxb.data" Plugin returned error code 1 and output 
+FAIL: "tests/stxdw.data" Plugin returned error code 1 and output 
+FAIL: "tests/stxh.data" Plugin returned error code 1 and output 
+FAIL: "tests/stxw.data" Plugin returned error code 1 and output 
+FAIL: "tests/subnet.data" Plugin returned error code 1 and output 
+Passed 124 out of 166 tests.
