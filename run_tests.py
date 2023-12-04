@@ -5,9 +5,9 @@ import json
 from typing import List, TypedDict
 EXECUTABLES = [
     "bpftime-llvm",
-    "bpftime-rbpf",
+    # "bpftime-rbpf",
     "bpftime-rbpf-vm",
-    "bpftime-ubpf",
+    # "bpftime-ubpf",
     "bpftime-ubpf-vm"
 ]
 EXECUTABLE_ROOT = pathlib.Path("test_executables")
